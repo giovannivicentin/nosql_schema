@@ -1,0 +1,30 @@
+{
+  "compras": {
+    "nrCompra": 1,
+    "data": "2000-05-01",
+    "cliente": {
+      "dado": {
+        "codCli": 1,
+        "nome": "Jose da Silva",
+        "tipoPessoa": "F"
+      },
+      "contato": {
+        "email": "jose@gmail.com",
+        "telefone": "(11)3311-0000"
+      }
+    },
+    "itensDaVenda": [
+      {
+        "produto": {
+          "codProd": 3,
+          "descricao": "Macarrão",
+          "preco": 3.9
+        },
+        "fornecedor": {
+          "codForn": 3,
+          "razao": "Massa Fina"
+        }
+      }
+    ]
+  }
+}
