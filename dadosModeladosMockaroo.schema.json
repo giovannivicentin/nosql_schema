@@ -1,0 +1,103 @@
+{
+  "id": 608715,
+  "num_rows": 1000,
+  "file_format": "json",
+  "name": "dadosModeladosMockaroo",
+  "array": true,
+  "columns": [
+    {
+      "name": "compras.nrCompra",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 1,
+      "max": 9,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "compras.data",
+      "null_percentage": 0,
+      "type": "Datetime",
+      "min": "5/1/2000",
+      "max": "05/01/2024",
+      "format": "%-m/%-d/%Y",
+      "formula": null
+    },
+    {
+      "name": "compras.cliente.dado.codCli",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 1,
+      "max": 9,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "compras.cliente.dado.nome",
+      "null_percentage": 0,
+      "type": "Full Name",
+      "formula": null
+    },
+    {
+      "name": "compras.cliente.dado.tipoPessoa",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": ["F", "J"],
+      "selectionStyle": "random",
+      "distribution": null,
+      "formula": null
+    },
+    {
+      "name": "compras.cliente.contato.email",
+      "null_percentage": 0,
+      "type": "Email Address",
+      "formula": null
+    },
+    {
+      "name": "compras.cliente.contato.telefone",
+      "null_percentage": 0,
+      "type": "Phone",
+      "format": "###-###-####",
+      "formula": null
+    },
+    {
+      "name": "compras.itensDaVenda[1].produto.codProd",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 1,
+      "max": 5,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "compras.itensDaVenda[1].produto.descricao",
+      "null_percentage": 0,
+      "type": "Product (Grocery)",
+      "formula": null
+    },
+    {
+      "name": "compras.itensDaVenda[1].produto.preco",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 1.1,
+      "max": 80.9,
+      "decimals": 2,
+      "formula": null
+    },
+    {
+      "name": "compras.itensDaVenda[1].fornecedor.codForn",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 1,
+      "max": 200,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "compras.itensDaVenda[1].fornecedor.razao",
+      "null_percentage": 0,
+      "type": "Company Name",
+      "formula": null
+    }
+  ]
+}
