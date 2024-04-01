@@ -42,7 +42,7 @@
       "name": "compras.cliente.dado.tipoPessoa",
       "null_percentage": 0,
       "type": "Custom List",
-      "values": ["F", "J"],
+      "values": ["F", "M"],
       "selectionStyle": "random",
       "distribution": null,
       "formula": null
